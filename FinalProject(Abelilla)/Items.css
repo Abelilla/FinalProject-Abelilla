@@ -1,0 +1,282 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+.shop-item img{
+
+	margin-top: 90px;
+	padding-left: 200px;
+	width: auto;
+	height: 400px;
+
+}
+h5 {
+	color: white;
+}
+h1 {
+	color: white;
+}
+h3{
+	align-content: center;
+	justify-content: center;
+	margin-left: 400px;
+	color: black;
+}
+.sizes{
+	float: right;
+	font-size: 25px;
+	margin-right: 100px;
+}
+.sizechart{
+padding-top: 200px;
+margin-right: 180px;
+margin-left: 90px;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.content-section {
+    margin: 10px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.about-store-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #040e12;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #777;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-bottom: ;
+    margin-left: 80px;
+    margin-right: 850px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+
+}
+
+.shop-item {
+    margin: 0px;
+    
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.shop-item-image {
+    height: 250px;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    opacity: -0;
+}
+.shop-item-details span{
+	opacity: -0;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 2px;
+    column-gap: 150px;
+
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+h2 {
+    color: white;
+    background: url(stars.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 50px;
+    background-position: 50% 50%;
+    padding: 50px;
+    font-size: 50px;
+
+}
+
+
